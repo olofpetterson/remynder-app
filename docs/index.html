@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Remynder - A calm, local-first app for maintaining meaningful relationships. Set follow-up reminders for your contacts.">
+
+  <link rel="alternate" hreflang="en" href="?lang=en">
+  <link rel="alternate" hreflang="sv" href="?lang=sv">
+  <link rel="alternate" hreflang="de" href="?lang=de">
+  <link rel="alternate" hreflang="es" href="?lang=es">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <title>Remynder - Remember the people who matter</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="logo">Remynder</a>
+      <div class="nav-links">
+        <a href="support.html" data-i18n="nav.support">Support</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
+        <div class="language-switcher">
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="sv">SV</button>
+          <button class="lang-btn" data-lang="de">DE</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-i18n="hero.title">Remember the people who matter</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">A calm, local-first app for maintaining meaningful relationships. Set follow-up reminders for your contacts and never lose touch with the people you care about.</p>
+      <a href="https://apps.apple.com/app/remynder" class="cta-button">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        <span data-i18n="hero.cta">Download on the App Store</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title" data-i18n="features.title">Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feature-icon">🔔</span>
+          <h3 data-i18n="features.reminders.title">Smart Reminders</h3>
+          <p data-i18n="features.reminders.desc">Set custom follow-up intervals for each contact. Get a daily digest at your preferred time.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">📂</span>
+          <h3 data-i18n="features.categories.title">Organize by Category</h3>
+          <p data-i18n="features.categories.desc">Group your contacts as Client, Colleague, Friend, Family, or Other.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🔒</span>
+          <h3 data-i18n="features.privacy.title">100% Private</h3>
+          <p data-i18n="features.privacy.desc">All data stays on your device. No accounts, no cloud sync, no tracking.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">✨</span>
+          <h3 data-i18n="features.simple.title">Simple & Calm</h3>
+          <p data-i18n="features.simple.desc">No complex CRM features. Just the essentials to help you stay in touch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy-highlight">
+    <div class="privacy-content">
+      <div class="privacy-icon">🛡️</div>
+      <h2 data-i18n="privacy.title">Your data stays yours</h2>
+      <p data-i18n="privacy.desc">Remynder stores everything locally on your device using Apple's SwiftData. We have no servers, no analytics, and no way to access your information. When you delete the app, your data is gone forever.</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <h2 class="section-title" data-i18n="pricing.title">Pricing</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-label" data-i18n="pricing.free">Free</div>
+          <h3 data-i18n="pricing.free.price">Free</h3>
+          <ul class="pricing-features">
+            <li data-i18n="pricing.free.contacts">5 contacts</li>
+            <li data-i18n="pricing.free.notifications">Daily notifications</li>
+            <li data-i18n="pricing.free.categories">All categories</li>
+          </ul>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-label" data-i18n="pricing.pro">Pro</div>
+          <h3><span class="pricing-price">€<span data-i18n="pricing.pro.price">2.99</span></span> <span data-i18n="pricing.pro.once">one-time</span></h3>
+          <ul class="pricing-features">
+            <li data-i18n="pricing.pro.unlimited">Unlimited contacts</li>
+            <li data-i18n="pricing.pro.everything">Everything in Free</li>
+            <li data-i18n="pricing.pro.support">Support development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="download" id="download">
+    <div class="container">
+      <h2 data-i18n="download.title">Ready to stay connected?</h2>
+      <p data-i18n="download.subtitle">Download Remynder and start nurturing your relationships today.</p>
+      <a href="https://apps.apple.com/app/remynder" class="cta-button">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        <span data-i18n="hero.cta">Download on the App Store</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="support.html" data-i18n="footer.support">Support</a>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+      </div>
+      <p class="copyright">© <span data-i18n="footer.copyright">2026 Remynder. All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
